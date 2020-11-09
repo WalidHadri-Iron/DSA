@@ -46,11 +46,11 @@ In average case analysis, we take all possible inputs and calculate computing ti
     O(g(n)) = { f(n): there exist positive constants c and n0 such that 0 <= f(n) <= c*g(n) for all n >= n0}
    
  ##### C) Ω Notation:
- The Big Ω notation defines a lower bound of an algorithm, it bounds a function only from below.
+ The Ω notation defines a lower bound of an algorithm, it bounds a function only from below.
 
     Ω (g(n)) = {f(n): there exist positive constants c and n0 such that 0 <= c*g(n) <= f(n) for all n >= n0}.
  ##### D) Properties:
- Think about the possible properties for each one, reflexivity, transitivity, multiplying by a constant, the relationship between them... For more information, see [Here](https://www.geeksforgeeks.org/analysis-of-algorithms-set-3asymptotic-notations/)
+ Think about the possible properties for each one, reflexivity, transitivity, symmetry, multiplying by a constant, the relationship between them... For more information, see [Here](https://www.geeksforgeeks.org/analysis-of-algorithms-set-3asymptotic-notations/)
 
 
 
