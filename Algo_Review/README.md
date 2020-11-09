@@ -8,15 +8,12 @@ The purpose is being able to compare two algorithms and decide which one is bett
   2. It might also be possible that for some inputs, first algorithm perform better on one machine and the second works better on other machine for some other inputs.
 
 
-n      | Running time on A | Running time on B 
--------------------------------------------------
-10     | 2 sec             | ~ 1 h             
-
-100    | 20 sec            | ~ 1.8 h           
-
-10^6   | ~ 55.5 h          | ~ 5.5 h           
-
-10^9   | ~ 6.3 years       | ~ 8.3 h           
+|n      | Running time on A | Running time on B |
+|-------|-------------------|-------------------|
+|10     | 2 sec             | ~ 1 h             |
+|100    | 20 sec            | ~ 1.8 h           |
+|10^6   | ~ 55.5 h          | ~ 5.5 h           |
+|10^9   | ~ 6.3 years       | ~ 8.3 h           |
 
 
 
