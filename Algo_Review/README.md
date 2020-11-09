@@ -19,6 +19,6 @@ The purpose is being able to compare two algorithms and decide which one is bett
 |10^6   | ~ 55.5 h          | ~ 5.5 h           |
 |10^9   | ~ 6.3 years       | ~ 8.3 h           |
 
-Asymptotic Analysis is not perfect, but that’s the best way available for analyzing algorithms. For example $20*log(n)$ and $log(n)$ are asymptotically same.
+Asymptotic Analysis is not perfect, but that’s the best way available for analyzing algorithms. For example $`20*log(n)`$ and $`log(n)`$ are asymptotically same.
 
 # 1. Asymptotic analysis
