@@ -21,7 +21,7 @@ The purpose is being able to compare two algorithms and decide which one is bett
 
 Asymptotic Analysis is not perfect, but that’s the best way available for analyzing algorithms. For example <img src="https://latex.codecogs.com/gif.latex?20log(n)" title="20log(n)" /> and  <img src="https://latex.codecogs.com/gif.latex?log(n)" title="log(n)" /> are asymptotically same.
 
-# 1. Worst Case - Best Case - Average Case
+# 2. Worst Case - Best Case - Average Case
   
   #### A) Worst Case Analysis (Usually Done) 
 The worst case analysis, we calculate upper bound on running time of an algorithm. We must know the case that causes maximum number of operations to be executed. For example for the Linear Search algorithm that works as follow: in array of lenght n we look for the index for a given an element x, starting by the index 0 of the array, once we find the x we render the index and we stop iterating over the array. Otherwise, we return -1, that means that the x is not in the array. For this algorithm, the worst case scenario is when x is not in the array, we should then iterate all over the array to make sure that is the case. We can say the worst case time complexity of linear search would be Θ(n). The idea is to look for the input that is going to give this worst case.
@@ -31,3 +31,30 @@ In average case analysis, we take all possible inputs and calculate computing ti
 
  ##### C) Best Case Analysis
  We should know the case that minimizes the number of operations. For the Linear Search Algorithm, it is when x is the first element of the array
+ 
+ 
+ # 3. Asymptotic Notations
+ There are a lot of asymptotic notations, I am going to talk about the three more important and used ones.
+ ##### A) Θ Notation
+ The theta notation bounds a functions from above and below, so it defines exact asymptotic behavior.
+  
+     Θ(g(n)) = {f(n): there exist positive constants c1, c2 and n0 such that 0 <= c1*g(n) <= f(n) <= c2*g(n) for all n >= n0}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
