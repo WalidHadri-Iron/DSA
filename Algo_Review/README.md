@@ -23,6 +23,4 @@ Asymptotic Analysis is not perfect, but that’s the best way available for anal
 
 # 1. Asymptotic analysis
 
-```math
-SE = \frac{\sigma}{\sqrt{n}}
-```
+<img src="https://latex.codecogs.com/gif.latex?2log(n)" title="2log(n)" />
