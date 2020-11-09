@@ -7,8 +7,9 @@ The purpose is being able to compare two algorithms and decide which one is bett
   1. It might be possible that for some inputs, first algorithm performs better than the second. And for some inputs second performs better.
   2. It might also be possible that for some inputs, first algorithm perform better on one machine and the second works better on other machine for some other inputs.
  Take the example of the two following algortihms:
-            1. Linear Search running time in seconds on A: 0.2 * n
-            2. Binary Search running time in seconds on B: 1000*log(n)
+            
+            *Linear Search running time in seconds on A: 0.2 * n
+            *Binary Search running time in seconds on B: 1000*log(n)
 
 
 |n      | Running time on A | Running time on B |
