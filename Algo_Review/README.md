@@ -22,3 +22,7 @@ The purpose is being able to compare two algorithms and decide which one is bett
 Asymptotic Analysis is not perfect, but that’s the best way available for analyzing algorithms. For example $`20*log(n)`$ and $`log(n)`$ are asymptotically same.
 
 # 1. Asymptotic analysis
+
+```math
+SE = \frac{\sigma}{\sqrt{n}}
+```
