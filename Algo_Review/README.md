@@ -22,4 +22,4 @@ The purpose is being able to compare two algorithms and decide which one is bett
 Asymptotic Analysis is not perfect, but that’s the best way available for analyzing algorithms. For example <img src="https://latex.codecogs.com/gif.latex?20log(n)" title="20log(n)" /> and  <img src="https://latex.codecogs.com/gif.latex?log(n)" title="log(n)" /> are asymptotically same.
 
 # 1. Worst Case - Best Case - Average Case
-  ## A) Worst Case Analysis (Usually Done) 
+  #### A) Worst Case Analysis (Usually Done) 
