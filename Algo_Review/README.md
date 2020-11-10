@@ -188,7 +188,10 @@ If interested in proof, check [here](https://www.cs.cornell.edu/courses/cs3110/2
 ![alt text](https://github.com/WalidHadri-Iron/DSA/blob/main/Algo_Review/images/MasterTheorem.png?raw=true)
 
 We can say that, for this tree, we have a height of <a href="https://www.codecogs.com/eqnedit.php?latex=\boldsymbol{log_&space;{b}(n)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\boldsymbol{log_&space;{b}(n)}" title="\boldsymbol{log_ {b}(n)}" /></a> , and a branching factor of **a**. The work done at the root is **f(n)** and the work done at the leaves is <a href="https://www.codecogs.com/eqnedit.php?latex=\boldsymbol{\Theta&space;(n^c)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\boldsymbol{\Theta&space;(n^c)}" title="\boldsymbol{\Theta (n^c)}" /></a> where <a href="https://www.codecogs.com/eqnedit.php?latex=\boldsymbol{c=log_{b}(a)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\boldsymbol{c=log_{b}(a)}" title="\boldsymbol{c=log_{b}(a)}" /></a>
- 
+
+*Case 1: the work done at leaves is polynomially more, then leaves are the dominant part, and our result becomes the work done at leaves
+*Case 2: the work done at leaves and root is asymptotically same, then our result becomes height multiplied by work done at any level. 
+*Case 3: the work done at root is asymptotically more, then our result becomes work done at root.
  
  
  
