@@ -180,9 +180,9 @@ With consecutive loops, the time complexity ais calculated s sum of time complex
             
             T(n) = aT(n/b) + f(n) where a >= 1 and b > 1, a,b constants
             
-   
+   ![alt text](https://github.com/WalidHadri-Iron/DSA/blob/main/Algo_Review/images/MasterTheorem.png?raw=true)
  
- 
+
  
  
  
