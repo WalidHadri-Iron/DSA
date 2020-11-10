@@ -1,6 +1,4 @@
-# Algo Review
-## Description
-In this file, I tried to sum up very shortly all the notions that one should keep in mind when we are dealing with algorithmics. The main material is from [geeksforgeeks](https://www.geeksforgeeks.org) and Google.
+
 
 # 1. Asymptotic analysis
 The purpose is being able to compare two algorithms and decide which one is better. In algorithmics, the criterion to decide so, is based on the input size which should be large, the one that takes the least time is the better. This is the performance in time rendering point of view. Note that:
