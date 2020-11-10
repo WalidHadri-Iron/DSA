@@ -185,7 +185,7 @@ With consecutive loops, the time complexity ais calculated s sum of time complex
 For practicing, see this [document](https://www.csd.uwo.ca/~mmorenom/CS424/Ressources/master.pdf)
 If interested in proof, check [here](https://www.cs.cornell.edu/courses/cs3110/2012sp/lectures/lec20-master/mm-proof.pdf)
 
-![alt text](https://github.com/WalidHadri-Iron/DSA/blob/main/Algo_Review/images/MasterTheorem.png?raw=true)
+![alt text](https://github.com/WalidHadri-Iron/DSA/blob/main/Algo_Review/images/treeproof.png?raw=true)
 
 We can say that, for this tree, we have a height of <a href="https://www.codecogs.com/eqnedit.php?latex=\boldsymbol{log_&space;{b}(n)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\boldsymbol{log_&space;{b}(n)}" title="\boldsymbol{log_ {b}(n)}" /></a> , and a branching factor of **a**. The work done at the root is **f(n)** and the work done at the leaves is <a href="https://www.codecogs.com/eqnedit.php?latex=\boldsymbol{\Theta&space;(n^c)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\boldsymbol{\Theta&space;(n^c)}" title="\boldsymbol{\Theta (n^c)}" /></a> where <a href="https://www.codecogs.com/eqnedit.php?latex=\boldsymbol{c=log_{b}(a)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\boldsymbol{c=log_{b}(a)}" title="\boldsymbol{c=log_{b}(a)}" /></a>
 
