@@ -268,11 +268,15 @@ More formally, we say a decision problem Q is in NP iff
  
  For more details, check this [discussion](https://cs.stackexchange.com/questions/9556/what-is-the-definition-of-p-np-np-complete-and-np-hard/9566#9566)
  
+ ##### C) NP-Complete and NP-Hard:
+NP-complete problems are the hardest problems in NP set. A decision problem L is NP-complete if:
+    
+    1) L is in NP (Any given solution for NP-complete problems can be verified quickly, but there is no efficient known solution).
+    2) Every problem in NP is reducible to L in polynomial time (Reduction is defined below).
  
+A problem is NP-Hard if it follows property 2 mentioned above, doesn’t need to follow property 1. Therefore, NP-Complete set is also a subset of NP-Hard set.
  
- 
- 
- 
+ ![alt text](https://github.com/WalidHadri-Iron/DSA/blob/main/Algo_Review/images/NP-Completeness-1.png?raw=true)
  
  
  
