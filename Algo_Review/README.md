@@ -215,7 +215,7 @@ We can say that, for this tree, we have a height of <a href="https://www.codecog
  *Example*: Consider the problem of counting frequencies of all elements in an array of positive numbers. A pseudo-polynomial time solution for this is to first find the maximum value, then iterate from 1 to maximum value and for each value, find its frequency in array. This solution requires time according to maximum value in input array, therefore pseudo-polynomial. On the other hand, an algorithm whose time complexity is only based on number of elements in array (not value) is considered as polynomial time algorithm.
  *More examples*: Primality testing, Knapsack problem.
  
-##### B) Pseudo-polynomial Algorithms
+##### B) P and NP problems
  Let start by reminding that:
  
     . P is set of problems that can be solved by a deterministic Turing machine in Polynomial time.
@@ -227,19 +227,46 @@ To sump up:
          . P (all problems solvable, deterministically, in polynomial time) 
          . NP (problems where solutions can be verified in polynomial time)
          . P ⊂ NP
+ We can identify a decision problem with the subset of inputs that have answer YES. This simplifies notation and allows us to write x∈Q in place of Q(x)=YES and x∉Q in place of Q(x)=NO.
+ 
+ **P** is the class of decision problems that can be solved efficiently, i.e. decision problems which have polynomial-time algorithms.
+
+More formally, we say a decision problem Q is in P iff:
+
+      there is an efficient algorithm A such that for all inputs x
+            
+            if Q(x)=YES, then A(x)=YES
+           
+            if Q(x)=NO, then A(x)=NO.
+ 
+ NP: Problems with Efficient Algorithms for Verifying Proofs/Certificates/Witnesses 
+ 
+ Sometimes we do not know any efficient way of finding the answer to a decision problem, however if someone tells us the answer and gives us a proof we can efficiently verify that the answer is correct by checking the proof to see if it is a valid proof. This is the idea behind the complexity class NP.
+
+    Partition
+    
+    Input: a finite set of natural numbers S,
+    
+    Question: is it possible to partition S into two sets A and B (A∪B=S and A∩B=∅)
+    
+    such that the sum of the numbers in A is equal to the sum of number in B (∑x∈Ax=∑x∈Bx)?
+
+If I give you S and ask you if we can partition it into two sets such that their sums are equal, you do not know any efficient algorithm to solve it. You will probably try all possible ways of partitioning the numbers into two sets until you find a partition where the sums are equal or until you have tried all possible partitions and none has worked. If any of them worked you would say YES, otherwise you would say NO. 
+
+But there are exponentially many possible partitions so it will take a lot of time. However if I give you two sets A and B, you can easily check if the sums are equal and if A and B is a partition of S. Note that we can compute sums efficiently. 
+
+**NP** is the class of problems which have efficient verifiers, i.e. there is a polynomial time algorithm that can verify if a given solution is correct. 
+
+More formally, we say a decision problem Q is in NP iff
+ 
+     there is an efficient algorithm V called verifier such that for all inputs x
+     
+     if Q(x)=YES then there is a proof y such that V(x,y)=YES
+     
+     if Q(x)=NO then for all proofs y, V(x,y)=NO.
  
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+ For more details, check this [discussion](https://cs.stackexchange.com/questions/9556/what-is-the-definition-of-p-np-np-complete-and-np-hard/9566#9566)
  
  
  
