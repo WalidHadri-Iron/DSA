@@ -1,6 +1,6 @@
 # Algo Review
 ## Description
-In this file, I tried to sum up very shortly all the notions that one should keep in mind when we are dealing with algorithmics. The main material is from [geeksforgeeks](https://www.geeksforgeeks.org) and google.
+In this file, I tried to sum up very shortly all the notions that one should keep in mind when we are dealing with algorithmics. The main material is from [geeksforgeeks](https://www.geeksforgeeks.org) and Google.
 
 # 1. Asymptotic analysis
 The purpose is being able to compare two algorithms and decide which one is better. In algorithmics, the criterion to decide so, is based on the input size which should be large, the one that takes the least time is the better. This is the performance in time rendering point of view. Note that:
@@ -103,10 +103,18 @@ Time complexity of nested loops is equal to the number of times the innermost st
        }
 
 
+ ##### O(LogLog(n)) Complexity:
+Time Complexity of a loop is considered as O(LogLogn) if the loop variables is reduced / increased exponentially by a constant amount.
 
-
-
-
+    // Here c is a constant greater than 1   
+       for (int i = 2; i <=n; i = pow(i, c)) { 
+           // some O(1) expressions
+       }
+       //Here fun is sqrt or cuberoot or any other constant root
+       for (int i = n; i > 1; i = fun(i)) { 
+           // some O(1) expressions
+       }
+**Proof**: i takes the following values: 2, <a href="https://www.codecogs.com/eqnedit.php?latex=2^c" target="_blank"><img src="https://latex.codecogs.com/gif.latex?2^c" title="2^c" /></a>, <a href="https://www.codecogs.com/eqnedit.php?latex=(2^c)^c" target="_blank"><img src="https://latex.codecogs.com/gif.latex?(2^c)^c" title="(2^c)^c" /></a>, <a href="https://www.codecogs.com/eqnedit.php?latex=((2^c)^c)^c" target="_blank"><img src="https://latex.codecogs.com/gif.latex?((2^c)^c)^c" title="((2^c)^c)^c" /></a>, .....<a href="https://www.codecogs.com/eqnedit.php?latex=2^{c^{log_{c}(log(n))}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?2^{c^{log_{c}(log(n))}}" title="2^{c^{log_{c}(log(n))}}" /></a>. The last termn is equal to n, gives that the number of iterations is **O(Log(Log(n))**
 
 
 
