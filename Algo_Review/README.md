@@ -293,12 +293,12 @@ The idea is to find a transformation from L1 to L2 so that the algorithm A2 can 
  
 ##### D) Some NP-Complete porblems:
 
-*Boolean satisfiability problem (SAT)
-*Knapsack problem
-*Hamiltonian path problem
-*Travelling salesman problem (decision version)
-*Vertex cover problem
-*Subset sum problem
+* Boolean satisfiability problem (SAT)
+* Knapsack problem
+* Hamiltonian path problem
+* Travelling salesman problem (decision version)
+* Vertex cover problem
+* Subset sum problem
  
  
  
