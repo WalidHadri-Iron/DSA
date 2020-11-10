@@ -76,7 +76,7 @@ In average case analysis, we take all possible inputs and calculate computing ti
             // some O(1) expressions
        }
 
-##### O(<a href="https://www.codecogs.com/eqnedit.php?latex=n^c" target="_blank"><img src="https://latex.codecogs.com/gif.latex?n^c" title="n^c" /></a>) Complexity:
+##### O(<a href="https://www.codecogs.com/eqnedit.php?latex=\mathbf{n^c}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathbf{n^c}" title="\mathbf{n^c}" /></a>) Complexity:
 
 
 
