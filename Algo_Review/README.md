@@ -77,7 +77,20 @@ In average case analysis, we take all possible inputs and calculate computing ti
        }
 
 ##### O(<a href="https://www.codecogs.com/eqnedit.php?latex=\mathbf{n^c}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathbf{n^c}" title="\mathbf{n^c}" /></a>) Complexity:
+Time complexity of nested loops is equal to the number of times the innermost statement is executed. For the exampls below, the complexity is **O(<a href="https://www.codecogs.com/eqnedit.php?latex=\mathbf{n^2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathbf{n^2}" title="\mathbf{n^2}" /></a>)**
+       
+       for (int i = 1; i <=n; i += c) {
+         for (int j = 1; j <=n; j += c) {
+            // some O(1) expressions
+         }
+       }
 
+     
+       for (int i = n; i > 0; i -= c) {
+         for (int j = i+1; j <=n; j += c) {
+            // some O(1) expressions
+         }
+       }
 
 
 
