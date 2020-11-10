@@ -182,7 +182,7 @@ With consecutive loops, the time complexity ais calculated s sum of time complex
             
    ![alt text](https://github.com/WalidHadri-Iron/DSA/blob/main/Algo_Review/images/MasterTheorem.png?raw=true)
  
-
+For practicing, see this [document](https://www.csd.uwo.ca/~mmorenom/CS424/Ressources/master.pdf)
  
  
  
