@@ -283,6 +283,7 @@ A problem is NP-Hard if it follows property 2 mentioned above, doesn’t need to
  
  Let L1 and L2 be two decision problems. Suppose algorithm A2 solves L2. That is, if y is an input for L2 then algorithm A2 will answer Yes or No depending upon whether y belongs to L2 or not.
 The idea is to find a transformation from L1 to L2 so that the algorithm A2 can be part of an algorithm A1 to solve L1.
+ 
  ![alt text](https://github.com/WalidHadri-Iron/DSA/blob/main/Algo_Review/images/Reduction.png?raw=true)
  
  
