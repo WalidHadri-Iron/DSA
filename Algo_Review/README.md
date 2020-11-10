@@ -183,7 +183,8 @@ With consecutive loops, the time complexity ais calculated s sum of time complex
    ![alt text](https://github.com/WalidHadri-Iron/DSA/blob/main/Algo_Review/images/MasterTheorem.png?raw=true)
  
 For practicing, see this [document](https://www.csd.uwo.ca/~mmorenom/CS424/Ressources/master.pdf)
-If interested in proof, check [here](https://www.cs.cornell.edu/courses/cs3110/2012sp/lectures/lec20-master/mm-proof.pdf)
+
+If interested in proof, check [here](https://www.cs.cornell.edu/courses/cs3110/2012sp/lectures/lec20-master/mm-proof.pdf) .
 
 ![alt text](https://github.com/WalidHadri-Iron/DSA/blob/main/Algo_Review/images/treeproof.png?raw=true)
 
@@ -192,6 +193,62 @@ We can say that, for this tree, we have a height of <a href="https://www.codecog
 *Case 1: the work done at leaves is polynomially more, then leaves are the dominant part, and our result becomes the work done at leaves
 *Case 2: the work done at leaves and root is asymptotically same, then our result becomes height multiplied by work done at any level. 
 *Case 3: the work done at root is asymptotically more, then our result becomes work done at root.
+ 
+ # 4. Short insight on Amortized analysis
+ The motivation for amortized analysis is that looking at the worst-case run time per operation, rather than per algorithm, can be too pessimistic. See [here](https://en.wikipedia.org/wiki/Amortized_analysis) for more details. The example about dynamic arrays shows why we use amortized analysis.
+ 
+ # 5. Space Complexity
+ First of all, we are going to define precisely two terms that most of the time misused and confused.
+ 
+     . Auxiliary Space is the extra space or temporary space used by an algorithm.
+
+     . Space Complexity of an algorithm is total space taken by the algorithm with respect to the input size. Space complexity includes both Auxiliary space and space used by input.
+ 
+ For example, if we want to compare standard sorting algorithms on the basis of space, then Auxiliary Space would be a better criteria than Space Complexity. Merge Sort uses O(n) auxiliary space, Insertion sort and Heap Sort use O(1) auxiliary space. Space complexity of all these sorting algorithms is O(n) though.
+ 
+ 
+ # 6. Pseudo-polynomial Algorithms
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
