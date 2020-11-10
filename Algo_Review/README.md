@@ -207,12 +207,26 @@ We can say that, for this tree, we have a height of <a href="https://www.codecog
  For example, if we want to compare standard sorting algorithms on the basis of space, then Auxiliary Space would be a better criteria than Space Complexity. Merge Sort uses O(n) auxiliary space, Insertion sort and Heap Sort use O(1) auxiliary space. Space complexity of all these sorting algorithms is O(n) though.
  
  
- # 6. Pseudo-polynomial Algorithms
+ # 6. Pseudo-polynomial Algorithms and NP-Completeness
  
+##### A) Pseudo-polynomial Algorithms
+ An algorithm whose worst case time complexity depends on **numeric value of input** (not number of inputs) is called **Pseudo-polynomial algorithm**. Of course,  polynomial time algorithms are pseudo-polynomial.
  
+ *Example*: Consider the problem of counting frequencies of all elements in an array of positive numbers. A pseudo-polynomial time solution for this is to first find the maximum value, then iterate from 1 to maximum value and for each value, find its frequency in array. This solution requires time according to maximum value in input array, therefore pseudo-polynomial. On the other hand, an algorithm whose time complexity is only based on number of elements in array (not value) is considered as polynomial time algorithm.
+ *More examples*: Primality testing, Knapsack problem.
  
+##### B) Pseudo-polynomial Algorithms
+ Let start by reminding that:
  
- 
+    . P is set of problems that can be solved by a deterministic Turing machine in Polynomial time.
+    . NP  is set of decision problems that can be solved by a Non-deterministic Turing Machine in Polynomial time. P is subset of NP (any problem that can be solved by deterministic machine in polynomial time can also be solved by non-deterministic machine in polynomial time).
+    The Turing machine consists of two phases, the first of which consists of a guess about the solution, which is generated in a non-deterministic way, while the second phase consists of a deterministic algorithm that verifies if the guess is a solution to the problem.
+    
+To sump up:  
+         
+         . P (all problems solvable, deterministically, in polynomial time) 
+         . NP (problems where solutions can be verified in polynomial time)
+         . P ⊂ NP
  
  
  
