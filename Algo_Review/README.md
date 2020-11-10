@@ -50,9 +50,33 @@ In average case analysis, we take all possible inputs and calculate computing ti
 
     Ω (g(n)) = {f(n): there exist positive constants c and n0 such that 0 <= c*g(n) <= f(n) for all n >= n0}.
  ##### D) Properties:
- Think about the possible properties for each one, reflexivity, transitivity, symmetry, multiplying by a constant, the relationship between them... For more information, see [Here](https://www.geeksforgeeks.org/analysis-of-algorithms-set-3asymptotic-notations/)
+ Think about the possible properties for each one, reflexivity, transitivity, symmetry, multiplying by a constant, the relationship between the three notations... For more information, see [Here](https://www.geeksforgeeks.org/analysis-of-algorithms-set-3asymptotic-notations/) or Lecture 1 of the MIT introduction to Algortihms [Here](https://www.youtube.com/watch?v=JPyuH4qXLZ0)
+ 
+ # 3. Analysis of loops
+ 
+ ##### O(1) Complexity:
+    // set of non-recursive and non-loop statements (make sure there is no function of non constant time is called)
+    
+ When a loop runs a **constant** number of times it is also considered to be **O(1)**
+     
+     // Here c is a constant   
+     for (int i = 1; i <= c; i++) {  
+          // some O(1) expressions
+     }
+ 
+ ##### O(n) Complexity:
+ Time Complexity of a loop is considered as O(n) if the loop variables is incremented / decremented by a constant amount
+ 
+      // Here c is a positive integer constant   
+       for (int i = 1; i <= n; i += c) {  
+            // some O(1) expressions
+       }
 
+       for (int i = n; i > 0; i -= c) {
+            // some O(1) expressions
+       }
 
+##### O(<a href="https://www.codecogs.com/eqnedit.php?latex=n^c" target="_blank"><img src="https://latex.codecogs.com/gif.latex?n^c" title="n^c" /></a>) Complexity:
 
 
 
