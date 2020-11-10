@@ -287,7 +287,18 @@ The idea is to find a transformation from L1 to L2 so that the algorithm A2 can 
  ![alt text](https://github.com/WalidHadri-Iron/DSA/blob/main/Algo_Review/images/Reduction.png?raw=true)
  
  
+ ##### C) Proving that a problem is NP-complete: 
+ From the definition of NP-complete, it appears impossible to prove that a problem L is NP-Complete.  By definition, it requires us to that show every problem in NP is polynomial time reducible to L.   Fortunately, there is an alternate way to prove it.   The idea is to take a known NP-Complete problem and reduce it to L.  If polynomial time reduction is possible, we can prove that L is NP-Complete by transitivity of reduction (If a NP-Complete problem is reducible to L in polynomial time, then all problems are reducible to L in polynomial time).
  
+ 
+##### D) Some NP-Complete porblems:
+
+*Boolean satisfiability problem (SAT)
+*Knapsack problem
+*Hamiltonian path problem
+*Travelling salesman problem (decision version)
+*Vertex cover problem
+*Subset sum problem
  
  
  
