@@ -92,8 +92,15 @@ Time complexity of nested loops is equal to the number of times the innermost st
          }
        }
 
-
-
+ ##### O(Log(n)) Complexity:
+  Time Complexity of a loop is considered as O(Logn) if the loop variables is divided / multiplied by a constant amount.
+  
+       for (int i = 1; i <=n; i *= c) {
+           // some O(1) expressions
+       }
+       for (int i = n; i > 0; i /= c) {
+           // some O(1) expressions
+       }
 
 
 
