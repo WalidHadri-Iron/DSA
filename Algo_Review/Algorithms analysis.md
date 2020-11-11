@@ -1,3 +1,5 @@
+# Algorithms Analysis
+
 - [1. Asymptotic analysis](#1-asymptotic-analysis)
 - [2. Worst Case - Best Case - Average Case](#2-worst-case---best-case---average-case)
 - [3. Asymptotic Notations](#3-asymptotic-notations)
