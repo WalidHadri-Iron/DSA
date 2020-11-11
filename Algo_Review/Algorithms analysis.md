@@ -1,34 +1,11 @@
 - [1. Asymptotic analysis](#1-asymptotic-analysis)
 - [2. Worst Case - Best Case - Average Case](#2-worst-case---best-case---average-case)
-      - [A) Worst Case Analysis (Usually Done)](#a--worst-case-analysis--usually-done-)
-        * [B) Average Case Analysis (Sometimes Done)](#b--average-case-analysis--sometimes-done-)
-        * [C) Best Case Analysis](#c--best-case-analysis)
 - [3. Asymptotic Notations](#3-asymptotic-notations)
-        * [A) Θ Notation](#a----notation)
-        * [B) Big O Notation](#b--big-o-notation)
-        * [C) Ω Notation:](#c----notation-)
-        * [D) Properties:](#d--properties-)
 - [3. Analysis of loops](#3-analysis-of-loops)
-        * [O(1) Complexity:](#o-1--complexity-)
-        * [O(n) Complexity:](#o-n--complexity-)
-        * [O(<a href="https://www.codecogs.com/eqnedit.php?latex=\mathbf{n^c}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathbf{n^c}" title="\mathbf{n^c}" /></a>) Complexity:](#o--a-href--https---wwwcodecogscom-eqneditphp-latex--mathbf-n-c---target---blank---img-src--https---latexcodecogscom-giflatex--mathbf-n-c---title---mathbf-n-c-------a---complexity-)
-        * [O(Log(n)) Complexity:](#o-log-n---complexity-)
-        * [O(LogLog(n)) Complexity:](#o-loglog-n---complexity-)
-        * [Consecutive loops:](#consecutive-loops-)
-        * [If and else statements inside loops:](#if-and-else-statements-inside-loops-)
-- [3. Analysis of recursive functions](#3-analysis-of-recursive-functions)
-        * [Substitution Method:](#substitution-method-)
-        * [Recurrence Tree Method:](#recurrence-tree-method-)
-        * [Master Method](#master-method)
-- [4. Short insight on Amortized analysis](#4-short-insight-on-amortized-analysis)
-- [5. Space Complexity](#5-space-complexity)
-- [6. Pseudo-polynomial Algorithms and NP-Completeness](#6-pseudo-polynomial-algorithms-and-np-completeness)
-        * [A) Pseudo-polynomial Algorithms](#a--pseudo-polynomial-algorithms)
-        * [B) P and NP problems](#b--p-and-np-problems)
-        * [C) NP-Complete and NP-Hard:](#c--np-complete-and-np-hard-)
-        * [C) Reduction:](#c--reduction-)
-        * [C) Proving that a problem is NP-complete:](#c--proving-that-a-problem-is-np-complete-)
-        * [D) Some NP-Complete porblems:](#d--some-np-complete-porblems-)
+- [4. Analysis of recursive functions](#4-analysis-of-recursive-functions)
+- [5. Short insight on Amortized analysis](#5-short-insight-on-amortized-analysis)
+- [6. Space Complexity](#6-space-complexity)
+- [7. Pseudo-polynomial Algorithms and NP-Completeness](#7-pseudo-polynomial-algorithms-and-np-completeness)
 
 # 1. Asymptotic analysis
 The purpose is being able to compare two algorithms and decide which one is better. In algorithmics, the criterion to decide so, is based on the input size which should be large, the one that takes the least time is the better. This is the performance in time rendering point of view. Note that:
@@ -148,7 +125,7 @@ With consecutive loops, the time complexity ais calculated s sum of time complex
 ##### If and else statements inside loops:
  We calculate the complexity for the worst case
  
- # 3. Analysis of recursive functions
+ # 4. Analysis of recursive functions
  For recusrsive functions, the time complexity can be written in mathematical recurrence relation. We have to be able to solve the recusrsion to find the complexity. There are some techniques to do that:
  ##### Substitution Method:
  We make a guess for the solution and then we use mathematical induction to prove the guess is correct or incorrect.
@@ -222,10 +199,10 @@ We can say that, for this tree, we have a height of <a href="https://www.codecog
 *Case 2: the work done at leaves and root is asymptotically same, then our result becomes height multiplied by work done at any level. 
 *Case 3: the work done at root is asymptotically more, then our result becomes work done at root.
  
- # 4. Short insight on Amortized analysis
+ # 5. Short insight on Amortized analysis
  The motivation for amortized analysis is that looking at the worst-case run time per operation, rather than per algorithm, can be too pessimistic. See [here](https://en.wikipedia.org/wiki/Amortized_analysis) for more details. The example about dynamic arrays shows why we use amortized analysis.
  
- # 5. Space Complexity
+ # 6. Space Complexity
  First of all, we are going to define precisely two terms that most of the time misused and confused.
  
      . Auxiliary Space is the extra space or temporary space used by an algorithm.
@@ -235,7 +212,7 @@ We can say that, for this tree, we have a height of <a href="https://www.codecog
  For example, if we want to compare standard sorting algorithms on the basis of space, then Auxiliary Space would be a better criteria than Space Complexity. Merge Sort uses O(n) auxiliary space, Insertion sort and Heap Sort use O(1) auxiliary space. Space complexity of all these sorting algorithms is O(n) though.
  
  
- # 6. Pseudo-polynomial Algorithms and NP-Completeness
+ # 7. Pseudo-polynomial Algorithms and NP-Completeness
  
 ##### A) Pseudo-polynomial Algorithms
  An algorithm whose worst case time complexity depends on **numeric value of input** (not number of inputs) is called **Pseudo-polynomial algorithm**. Of course,  polynomial time algorithms are pseudo-polynomial.
