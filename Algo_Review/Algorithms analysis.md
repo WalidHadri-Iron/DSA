@@ -307,7 +307,18 @@ The idea is to find a transformation from L1 to L2 so that the algorithm A2 can 
 * Vertex cover problem
 * Subset sum problem
  
- 
+ ##### Why primality testing is exponential:
+ There are two sensible ways to define a variable that can be used in the runtime complexity.
+
+    m is the value of the input number (your definition).
+    
+    n is the number of bits required to represent the input (the input size).
+
+Neither is better than the other, because there's a 1-to-1 correspondence between the two:
+
+    n=O(logm) or equivalently m=O(2^n)
+
+Most scientists use n. Using that definition, sorting is e.g. O(nlogn) and there's no known O(n) algorithm for primality. You showed that there is a O(√m) algorithm (sublinear in m), which is O(2^(n/2)) (exponential in n).
  
  
  
