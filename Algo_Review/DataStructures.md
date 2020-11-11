@@ -7,3 +7,13 @@
 each identified by at least one array index or key. An array is stored such that the position of each element can be computed from its index tuple by a mathematical formula.The simplest type of data structure is a linear array, also called one-dimensional array.
 
 *For example*: an array of 10 32-bit (4-byte) integer variables, with indices 0 through 9, may be stored as 10 words at memory addresses 2000, 2004, 2008, ..., 2036, so that the element with index i has the address 2000 + (i × 4).
+
+##### B) Array’s size:
+In C language array has the fixed size meaning once size is given to it. It can’t change i.e. can’t shrink it, can’t expand it. The reason was that for expanding if we change the size we can’t be sure ( it’s not possible every time) that we get the next memory location to us as free. The shrinking will not work because array, when declared, it gets memory statically, and thus compiler is the only one to destroy it.
+
+##### C) Advantages of using arrays:
+* Arrays allow random access of elements. This makes accessing elements by position faster.
+* Arrays have better cache locality that can make a pretty big difference in performance.
+
+##### D) Arrays in Python:
+Other than some generic containers like **list**, Python in its definition can also handle containers with specified data types. The array can be handled in python by a module named **“array“**. They can be useful when we have to manipulate only a specific data type values. See the jupyter notebook on DataStructures where it is shown how to deal with array on python with some applications programs **HERE**.
