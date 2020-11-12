@@ -52,3 +52,5 @@ A linked list is represented by a pointer to the first node of the linked list. 
 Each node in a list consists of at least two parts:
 1) Data
 2) Pointer (Or Reference) to the next node
+
+See the jupyter notebook **HERE** for an idea about the construction of a linked list using OOP.
