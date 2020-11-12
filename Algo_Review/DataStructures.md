@@ -73,3 +73,10 @@ See the jupyter notebook **HERE** for an idea about the construction of a linked
 
 
 ![alt text](https://github.com/WalidHadri-Iron/DSA/blob/main/Algo_Review/images/stack.png)
+
+When we are dealing with a stack, there are four operations that one can do:
+
+* **Push**: Adds an item in the stack. If the stack is full, then it is said to be an Overflow condition.
+* **Pop**: Removes an item from the stack. The items are popped in the reversed order in which they are pushed. If the stack is empty, then it is said to be an Underflow condition.
+* **Peek** or **Top**: Returns top element of stack.
+* **isEmpty**: Returns true if stack is empty, else false.
