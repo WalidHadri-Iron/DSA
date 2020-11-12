@@ -18,7 +18,7 @@ In C language array has the fixed size meaning once size is given to it. It can�
 ##### D) Arrays in Python:
 Other than some generic containers like **list**, Python in its definition can also handle containers with specified data types. The array can be handled in python by a module named **“array“**. They can be useful when we have to manipulate only a specific data type values. See the jupyter notebook on DataStructures where it is shown how to deal with array on python with some applications programs **HERE**.
 
-# Linked Lists:
+# Linked Lists
 
 
 ##### A) Definition of a linked list:
@@ -66,3 +66,7 @@ See the jupyter notebook **HERE** for an idea about the construction of a linked
 | Elements are stored consecutively in arrays | They are stored randomly in Linked lists |
 | The requirement of memory is less due to actual data being stored within the index in the array | There is a need for more memory in Linked Lists due to storage of additional next and previous referencing elements|
 | In addition memory utilization is inefficient in the array | Memory utilization is efficient in the linked list |
+
+ # Stack
+ 
+ A stack is a basic data structure that can be logically thought of as a linear structure represented by a real physical stack or pile, a structure where insertion and deletion of items takes place at one end called top of the stack. The basic concept can be illustrated by thinking of your data set as a stack of plates or books where you can only take the top item off the stack in order to remove things from it. This structure is used all throughout programming. 
