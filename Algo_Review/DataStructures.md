@@ -54,3 +54,15 @@ Each node in a list consists of at least two parts:
 2) Pointer (Or Reference) to the next node
 
 See the jupyter notebook **HERE** for an idea about the construction of a linked list using OOP.
+
+|       Array                                                 |    Linked List                                                             |
+|-------------------------------------------------------------|----------------------------------------------------------------------------|
+| An array is the data structure that contains a collection of similar type data elements |     Linked list is considered as a non-primitive data structure contains a collection of unordered linked elements known as nodes                                                             |
+| In the array the elements belong to indexes, i.e., if you want to get into the fourth element you have to write the variable name with its index or location within the square bracket|For the linked list you have to start from the head and work your way through until you get to the fourth element|
+| Accessing an element in an array is fast| Linked list takes linear time, so it is quite a bit slower|
+| Operations like insertion and deletion in arrays consume a lot of time|The performance of these operations in Linked lists are fast. |
+| Arrays are of fixed size | Linked lists are dynamic and flexible and can expand and contract its size |
+| Memory is assigned during compile time | Memory is allocated during execution or runtime |
+| Elements are stored consecutively in arrays | They are stored randomly in Linked lists |
+| The requirement of memory is less due to actual data being stored within the index in the array | There is a need for more memory in Linked Lists due to storage of additional next and previous referencing elements|
+| In addition memory utilization is inefficient in the array | Memory utilization is efficient in the linked list |
