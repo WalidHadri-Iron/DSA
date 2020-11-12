@@ -69,14 +69,29 @@ See the jupyter notebook **HERE** for an idea about the construction of a linked
 
  # Stack
  
+ #### A) Stack definition:
+ 
  A stack is a basic data structure that can be logically thought of as a linear structure represented by a real physical stack or pile, a structure where insertion and deletion of items takes place at one end called top of the stack. The basic concept can be illustrated by thinking of your data set as a stack of plates or books where you can only take the top item off the stack in order to remove things from it. This structure is used all throughout programming. 
 
 
 ![alt text](https://github.com/WalidHadri-Iron/DSA/blob/main/Algo_Review/images/stack.png)
 
-When we are dealing with a stack, there are four operations that one can do:
+When we are dealing with a stack, there are four operations that one can do, all with O(1) time complexity:
 
 * **Push**: Adds an item in the stack. If the stack is full, then it is said to be an Overflow condition.
 * **Pop**: Removes an item from the stack. The items are popped in the reversed order in which they are pushed. If the stack is empty, then it is said to be an Underflow condition.
 * **Peek** or **Top**: Returns top element of stack.
 * **isEmpty**: Returns true if stack is empty, else false.
+
+#### B) Stack in Python:
+Stacks in Python can be implemented using:
+
+       Lists: The biggest issue is that it can run into speed issue as it grows. The items in list are stored next to each other in memory, if the stack grows bigger than the block of memory that currently hold it, then Python needs to do some memory allocations. This can lead to some append() calls taking much longer than other ones.
+       
+       Deque class from the collections module: Deque is preferred over list in the cases where we need quicker append and pop operations from both the ends of the container, as deque provides an O(1) time complexity for append and pop operations as compared to list which provides O(n) time complexity. 
+       
+       Queue module also has a LIFO Queue, which is basically a Stack. Data is inserted into Queue using put() function and get() takes data out from the Queue.
+       
+       Implementation using singly linked list (OOP), the linked list has two methods addHead(item) and removeHead() that run in constant time. These two methods are suitable to implement a stack.
+       
+To check the four implementations, check the jupyter notebook **HERE**
