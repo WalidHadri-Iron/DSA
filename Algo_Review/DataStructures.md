@@ -159,6 +159,7 @@ Properties of a tree:
     The diameter (or width) of a tree is the number of nodes on the longest path between any two leaf nodes. The tree below has a diameter of 6 nodes.
 
  
+ Types of binary trees: Full Binary Tree, Complete Binary Tree, Perfect Binary Tree, Balanced Binary Tree, Degenerate tree.
  
  
  
