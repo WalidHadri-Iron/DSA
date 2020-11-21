@@ -95,3 +95,53 @@ Stacks in Python can be implemented using:
        Implementation using singly linked list (OOP), the linked list has two methods addHead(item) and removeHead() that run in constant time. These two methods are suitable to implement a stack.
        
 To check the four implementations, check the jupyter notebook **HERE**
+
+
+ # Queue
+ 
+ #### A) Queue definition:
+ 
+ A queue is a collection of entities that are maintained in a sequence and can be modified by the addition of entities at one end of the sequence and the removal of entities from the other end of the sequence.
+ 
+ ![alt text](https://github.com/WalidHadri-Iron/DSA/blob/main/Algo_Review/images/queue.png)
+ 
+ 
+ 
+
+The main operations that can be executed on a queue are:
+
+* **Enqueue**: Adds an item to the queue. If the queue is full, then it is said to be an Overflow condition.
+*  **Dequeue**: Removes an item from the queue. The items are popped in the same order in which they are pushed. If the queue is empty, then it is said to be an Underflow condition.
+*    **Front**: Get the front item from queue.
+*    **Rear**: Get the last item from queue. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
