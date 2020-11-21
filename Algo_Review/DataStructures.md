@@ -132,7 +132,16 @@ The main operations that can be executed on a queue are:
  
  #### A) Binary Tree definition:
 A tree whose elements have at most 2 children is called a binary tree. Since each element in a binary tree can have only 2 children, we typically name them the left and right child.
- 
+
+Unlike Arrays, Linked Lists, Stack and queues, which are linear data structures, trees are hierarchical data structures.
+
+**Properties**:
+
+    The maximum number of nodes at level l of a binary tree is 2^l
+    The maximum number of nodes for a binary a tree tree with heigh h is 2^h - 1
+    In a binary tree with N nodes, minimum possible height or the minimum number of levels is: Log2(N+1)
+    A Binary Tree with L leaves has at least? Log2(L) + 1   levels 
+    
  ![alt text](https://github.com/WalidHadri-Iron/DSA/blob/main/Algo_Review/images/binarytree.png)
  
  
