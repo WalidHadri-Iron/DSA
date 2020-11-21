@@ -18,6 +18,24 @@ In C language array has the fixed size meaning once size is given to it. It can�
 ##### D) Arrays in Python:
 Other than some generic containers like **list**, Python in its definition can also handle containers with specified data types. The array can be handled in python by a module named **“array“**. They can be useful when we have to manipulate only a specific data type values. See the jupyter notebook on DataStructures where it is shown how to deal with array on python with some applications programs **HERE**.
 
+**Important**:
+The complexity time to reach an element at a given index (and write there) is O(1)
+
+The complexity time to insert an element at a given index is O(n).
+
+The memory usage of an array is exactly the number of elements in the array.
+
+
+| Method 	| Worst-case time |
+|-----------|------------------|
+| add(int i, E element)| 	n - i|
+|remove(int i)| 	n - i|
+|removeRange(int i, int j)| 	n - i|
+|remove(Object o) 	|n|
+|contains(Object o) 	|n|
+|indexOf(Object o) 	|n|
+|lastIndexOf(Object o) 	|n|
+
 # Linked Lists
 
 
