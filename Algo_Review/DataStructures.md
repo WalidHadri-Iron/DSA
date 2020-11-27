@@ -85,6 +85,13 @@ See the jupyter notebook **HERE** for an idea about the construction of a linked
 | The requirement of memory is less due to actual data being stored within the index in the array | There is a need for more memory in Linked Lists due to storage of additional next and previous referencing elements|
 | In addition memory utilization is inefficient in the array | Memory utilization is efficient in the linked list |
 
+ 
+|       |Worst case|Average Case|
+|-------|----------|------------|
+|Search |O(n)|O(n)|
+|Insert |O(1)|O(1)|
+|Delection|O(1)|O(1)
+
  # Stack
  
  #### A) Stack definition:
