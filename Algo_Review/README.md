@@ -6,4 +6,5 @@ In this directory, I tried to sum up very shortly all the notions that one shoul
 
 2. **[Data Structures](https://github.com/WalidHadri-Iron/DSA/blob/main/Algo_Review/DataStructures.md)**
 
-![alt text](https://github.com/WalidHadri-Iron/DSA/tree/main/Algo_Review/images)
+
+![alt text](https://github.com/WalidHadri-Iron/DSA/blob/main/Algo_Review/images/bigOcheatsheet.png)
