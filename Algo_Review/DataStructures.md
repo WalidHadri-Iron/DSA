@@ -188,9 +188,23 @@ Properties of a tree:
  
  Types of binary trees: Full Binary Tree, Complete Binary Tree, Perfect Binary Tree, Balanced Binary Tree, Degenerate tree.
  
+  #### B) Traversals (DFS VS BFS):
+ BFS (Breath First Traversal or level order traversal)
  
+ DFS (Depth First Traversal) has three different types:
  
+        Inorder Traversal (Left-Root-Right)
+        Preorder Traversal (Root-Left-Right)
+        Postorder Traversal (Left-Right-Root)
+
+Example Tree
+ There is no difference in time complexity, both have to visit all nodes. In space complexity, for DFS the complexity is h (where h is the height of the binary tree) and for BFS is w (where w is the maximum width of Binary tree).
  
+ Keep in mind that: 
+ 
+        Depth First Traversals are typically recursive and recursive code requires function call overheads.
+        
+        The most important points is, BFS starts visiting nodes from root while DFS starts visiting nodes from leaves. So if our problem is to search something that is more likely to closer to root, we would prefer BFS. And if the target node is close to a leaf, we would prefer DFS. 
  
  
  
