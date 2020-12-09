@@ -207,10 +207,16 @@ Example Tree
         The most important points is, BFS starts visiting nodes from root while DFS starts visiting nodes from leaves. So if our problem is to search something that is more likely closer to root, we would prefer BFS. And if the target node is close to a leaf, we would prefer DFS. 
  
  
- 
- 
- 
- 
+# Binary search tree
+
+#### A) Definition:
+
+Binary Search Tree is a node-based binary tree data structure which has the following properties:
+
+    The left subtree of a node contains only nodes with keys lesser than the node’s key.
+    The right subtree of a node contains only nodes with keys greater than the node’s key.
+    The left and right subtree each must also be a binary search tree.
+
  
  
  
